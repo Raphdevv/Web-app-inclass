@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<header>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
+</header>
+<body>
+    <!-- navbar -->
+  <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a href="home.html" class="navbar-brand">
+        <img src="img\E.png" height="35" />
+        <img src="img\EASY THINGs55.png" alt="LOGO" />
+      </a>
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar1"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar1" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">หน้าแรก</a>
+          </li>
+          <li class="nav-item">
+            <a href="เครื่องใช้ไฟฟ้า.html" class="nav-link  active">เครื่องใช้ไฟฟ้า</a>
+          </li>
+          <li class="nav-item">
+            <a href="เครื่องใช้อิเล็กทรอนิกส์.html" class="nav-link">เครื่องใช้อิเล็กทรอนิกส์</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recipe" class="nav-link">ของใช้ทั่วไป</a>
+          </li>
+          <li class="nav-item">
+            <a href="logandreg.php" class="nav-link">จัดการข้อมูล</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ของใช้ไฟฟ้า -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1ตู้เย็น.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ตู้เย็น</h5>
+            <p class="card-text">ตู้เย็น เป็นอีกหนึ่งความจำเป็นสำหรับเด็กหอพักเลย เนื่องจากว่าสามารถใช้แช่ของสด หรือพวกอาหารต่างๆไว้ได้ เครื่องดื่มต่างๆ ช่วยรักษาและยืดเวลาของอาหาร อาจรวมไปถึงการแช่ครีมซองต่างๆอีกด้วย ในส่วนของตู้เย็น ถ้าหากสำหรับอยู่คนเดียวหรือ 2 คนกับรูมเมจ อาจไม่จำเป็นต้องใช้ตู้เย็นที่ขนาดใหญ่มาก ขนาดที่พอเหมาะสำหรับเด็กหอเลย ที่อยากแนะนำก็คือ ขนาด 5.6 คิว กำลังพอเหมาะ ไม่ใหญ่เกิน เพราะเนื่องจากที่พื้นที่จำกัด</p>
+            <a data-bs-toggle="modal" data-bs-target="#a1" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1หม้อหุงข้าว.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">หม้อหุงข้าว</h5>
+            <p class="card-text">อีกหนึ่งปัจจัย ที่ควรมีเพราะ แน่นอนต้องมีการหุงข้าวอยู่แล้ว เพราะทำให้ประหยัดค่าใช้จ่ายเพิ่มขึ้นไปอีก สำหรับเด็กหอพัก หม้อหุงข้าว ควรมีขนาดที่ไม่ใหญ่มาก ประมาณ 1 – 1.5 ลิตร ก็เพียงพอแล้ว ราคาอาจอยู่ประมาณที่ 400-600 บาท (ขึ้นอยู่กับยี่ห้อแต่ละชนิด)</p>
+            <a data-bs-toggle="modal" data-bs-target="#a2" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1พัดลม.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">พัดลม</h5>
+            <p class="card-text">ไอเท็มยอดฮิต ที่ซึ่งแน่นอนเลย ต้องมีแน่นอน คือ สิ่งนี้เลย พัดลม เพราะจะช่วยให้เราคลายร้อน รู้สึกสบายกาย สบายใจ สำหรับเด็กหอพักแล้วพัดลมไม่ต้องมีขนาดที่ใหญ่มาก แต่ก็ไม่เล็กจนเกินไป ขนาดที่อยากจะแนะนำเลย คือ ขนาดหน้ากว้าง 16 นิ้ว เพราะเป็นขนาดกลางที่กำลังดีเลย ราคาอาจจะอยู่ที่ประมาณ 400 – 500 บาท (ขึ้นอยู่กับยี่ห้อ)</p>
+            <a data-bs-toggle="modal" data-bs-target="#a3" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1เตารีด.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">เตารีด</h5>
+            <p class="card-text">อุปกรณ์ที่ช่วยให้การแต่งกายของเรา ดูเรียบร้อย มีภูมิฐานนั้น คงจะหนีไม่พ้นสิ่งนี้เลย เตารีด เพราะจะช่วยทำให้เสื้อผ้าของเรานั้น ดูเรียบร้อย น่ามอง เป็นอีกสิ่งที่จำเป็นเลย สำหรับเด็กหอพัก เนื่องจากแน่นอน เราต้องมีการรีดเสื้อ หรือชุดของเรานั้น ไปมหาลัยหรือโรงเรียนอยู่แล้ว เพราะถ้าหากจะให้จ้างร้านก็คงจะสู้ราคาไม่ไหวแน่เลย สิ่งนี้คือสิ่งที่ควรมีมากๆเลย โดยราคาของเตารีด จะมีราคาที่ไม่สูงมากนัก ราคาจะอยู่ประมาณที่ 300 – 500 บาท (ขึ้นอยู่กับยี่ห้อ)</p>
+            <a data-bs-toggle="modal" data-bs-target="#a4" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+  
+    <div class="row">
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1กาต้มน้ำ.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">กาต้มน้ำไฟฟ้า</h5>
+            <p class="card-text">ดึกๆ หิวๆ แบบนี้ อยู่หอพักคนเดียว จะให้ลงไปเซเว่นก็ขี้เกียจ นี้เลย กาต้มน้ำ สำหรับต้มมาม่า ไอเท็มชิ้นนี้เป็นอีกไอเท็มที่ช่วยอำนวยความสะดวกให้เด็กหอพักได้ดีเป็นอย่างมากเลยทีเดียว เพราะสามารถต้มน้ำร้อน ทำให้สะดวกสบายมากขึ้นไปอีก ราคาจะอยู่ประมาณที่ 300 – 500 บาท (ขึ้นอยู่กับยี่ห้อ)</p>
+            <a data-bs-toggle="modal" data-bs-target="#b1" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <img src="img\1ปลั๊กไฟ.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ปลั๊กไฟ</h5>
+            <p class="card-text">ปลั๊กไฟ สิ่งที่จำเป็นที่สุดเลยก็ว่าได้ เพราะเนื่องจาก หอพักของเรา จะมีปลั๊กที่ทางหอให้มาไม่มากนัก เราจึงจำเป็นต้องมี ปลั๊กต่อพ่วง เนื่องจากเราอาจต้องใช้ชาร์ตแบตโทรศัพท์บ้าง ใช้ต่อสายชาร์ตโน้ตบุ้คบ้าง แน่นอน ต้องมีปลั๊กพ่วง และอีกอย่างการเลือกซื้อปลั๊กไฟ ควรเลือกซื้อปลั๊กไฟที่รับรับมาตรฐาน มอก. เพื่อความปลอดภัยของเราเอง เพราะอาจเกิดไฟลัดวงจรได้ง่าย ราคาจะอยู่ที่ประมาณ 100-300บาท</p>
+            <a data-bs-toggle="modal" data-bs-target="#b2" class="btn btn-dark">วิธีการดูแลรักษา</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+    <div class="row">
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+      <div class="col">
+        <br>
+        <div class="card" style="width: 18rem;"></div>
+      </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer class="text-center p-1" style="background-color:#f0f0f0">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p> Copyright &copy; กลุ่มนักศึกษาวิทยาการคอมพิวเตอร์ 2021</p>
+            </div>
+        </div>
+    </div>                   
+</footer>
+<!-- ตู้เย็น -->
+<div class="modal fade" id="a1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">ตู้เย็น</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5ตู้เย็น.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      -	ไม่ใส่ของในตู้มากเกินไป <br>
+      -	เหลือพื้นที่ด้านนอก <br>
+      -	หลีกเลี่ยงวางตู้เย็นใกล้ความร้อน <br>
+      -	ไม่ควรงัดน้ำแข็งที่เกาะอยู่ภายในตู้ <br>
+      -	รอให้อาหารเย็นลงก่อนนำเข้าตู้ <br>
+      -	ไม่ควรเปิดตู้เย็นบ่อย ๆ หรือค้างไว้ <br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- หม้อหุงข้าว -->
+<div class="modal fade" id="a2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">หม้อหุงข้าว</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5หม้อหุงข้าว.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      - ตรวจสอบปลั๊กเสียบของหม้อหุงข้าวต้องไม่แตกร้าวและสายที่ขั้วปลั๊กไม่หักพับ <br>
+      -	เมื่อเลิกใช้งานต้องถอดปลั๊กออกทันที<br>
+      -	การใช้หม้อหุงข้าวให้ใส่หม้อหุงข้าวตัวในพร้อมปิดฝาให้เรียบร้อยแล้วจึงเสียบปลั๊กใช้งาน<br>
+      -	การจับยกถือหม้อหุงข้าวให้ถอดปลั๊กให้เรียบร้อยก่อน<br>
+      -	ให้ตรวจสอบโครงโลหะของพัดลมโดยส่ำเสมอ หากพบว่ามีกระแสไฟฟ้ารั่วให้รีบซ่อมแซม <br>
+      - ปลั๊กเสียบของพัดลมต้องไม่แตกร้าว และสายที่ขั้วปลั๊กไม่หัก<br>
+      -	เมื่อเลิกใช้งานทุกครั้ง ให้ดึงปลั๊กเสียบออก<br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- พัดลม -->
+<div class="modal fade" id="a3">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">พัดลม</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5พัดลม.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      -	ให้ตรวจสอบโครงโลหะของพัดลมโดยส่ำเสมอ หากพบว่ามีกระแสไฟฟ้ารั่วให้รีบซ่อมแซม<br>
+      -	ปลั๊กเสียบของพัดลมต้องไม่แตกร้าว และสายที่ขั้วปลั๊กไม่หัก <br>
+      -	เมื่อเลิกใช้งานทุกครั้ง ให้ดึงปลั๊กเสียบออก <br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- เตารีด -->
+<div class="modal fade" id="a4">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">เตารีด</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5เตารีด.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      -	เมื่อเลิกใช้งาน ต้องถอดปลั๊กเสียบออกทันที<br>
+      -	ขณะใช้เตารีด ผู้ใช้ควรอยู่บนฉนวน เช่น แผ่นยาง  ทั้งนี้เพื่อป้องกันไม่ให้กระแสไฟฟ้าดูด <br>
+      -	อย่าวางเตารีดใกล้สิ่งที่จะติดไฟได้ง่ายเพราะอาจเกิดอุบัติเหตุเพลิงไหม้ขึ้นได้ <br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- กาต้มน้ำไฟฟ้า -->
+<div class="modal fade" id="b1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">กาต้มน้ำไฟฟ้า</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5กาต้มน้ำ.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      -	เต้าเสียบจะต้องไม่แตกร้าว และไม่มีรอยไหม้<br>
+      -	เมื่อเลิกใช้งาน ต้องถอดปลั๊กเสียบออกทุกครั้ง <br>
+      -	ขณะใช้งาน ต้องระวังอย่าให้น้ำในกาต้มน้ำไฟฟ้าแห้ง <br>
+      -	กาต้มน้ำไฟฟ้า ควรวางอยู่บนสิ่งที่ไม่ติดไฟ เช่น แผ่นกระเบื้อง แผ่นแก้ว และต้องไม่อยู่ ใกล้สารที่ติดไฟ <br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ปลั๊กไฟ -->
+<div class="modal fade" id="b2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">ปลั๊กไฟ</h3>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 mt-auto"> 
+          <div class="col">
+          <img src="img\5ปลั๊กไฟ.png" width="200%">
+        </div>
+      </div>
+      <strong >วิธีการดูแลรักษา</strong><br>
+      - ปลั๊กไฟ จะต้องไม่แตกร้าว และไม่มีรอยไหม้ <br>
+      -	การต่อสายที่เต้ารับและเต้าเสียบ ต้องให้แน่น และใช้ขนาดสายให้ถูกต้อง <br>
+      -	เต้าเสียบ เมื่อเสียบใช้งานกับเต้ารับต้องแน่น <br>
+      -	ปลั๊กไฟจะต้องติดตั้งในที่แห้ง ไม่เปียกชื้นหรือมีน้ำท่วม และควรเก็บให้พ้นมือเด็ก <br>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">
+          ปิด
+        </button>        
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
